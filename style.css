@@ -6,7 +6,7 @@ body {
   line-height: 32px;
   color: #222222;
   background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
+  background-image: url("mine/fon-me.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -28,9 +28,9 @@ body {
   text-align: right;
 }
 
-.page-header a {
+.page-header a, article {
   margin-left: 56px;
-  color: #288be6;
+  color:rgb(203 171 153);
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -38,12 +38,27 @@ body {
 
 .header-email {
   padding-left: 30px;
-  background-image: url("img/icon-email-header.svg");
+  background-image: url("icons/svg/envelope.svg");
 }
 
 .header-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone-header.svg");
+  background-image: url("icons/svg/phone-call.svg");
+}
+
+.header-inst {
+  padding-left: 25px;
+  background-image: url("icons/svg/chat.svg");
+}
+
+.header-facebook {
+  padding-left: 25px;
+  background-image: url("icons/svg/like.svg");
+}
+
+.header-vk {
+  padding-left: 25px;
+  background-image: url("icons/svg/chat-1.svg");
 }
 
 .hero-image {
@@ -81,6 +96,8 @@ body {
   font-weight: 400;
   text-align: center;
 }
+
+
 
 .user-image {
   margin: 0 0 32px;
@@ -165,17 +182,17 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 4px;
-  background-color: #288be6;
+  background-color: rgb(69, 74, 76);
   color: #ffffff;
 }
 
 .page-footer {
   padding: 40px 0;
-  background-color: #00417d;
+  background-color: rgb(69, 74, 76);
   color: #ffffff;
 }
 
-.page-footer a {
+.page-footer a, article {
   margin-left: 56px;
   color: inherit;
   text-decoration: none;
@@ -185,10 +202,25 @@ body {
 
 .footer-email {
   padding-left: 30px;
-  background-image: url("img/icon-email-footer.svg");
+  background-image: url("icons/svg/envelope.svg");
 }
 
 .footer-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone-footer.svg");
+  background-image: url("icons/svg/phone-call.svg");
+}
+
+.footer-inst {
+  padding-left: 25px;
+  background-image: url("icons/svg/chat.svg");
+}
+
+.footer-facebook {
+  padding-left: 25px;
+  background-image: url("icons/svg/like.svg");
+}
+
+.footer-vk {
+  padding-left: 25px;
+  background-image: url("icons/svg/chat-1.svg");
 }
