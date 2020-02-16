@@ -196,7 +196,7 @@ html, body {
   background: rgb(248,247,242);
   border: 10px solid transparent;
   border-image: 10 repeating-linear-gradient(135deg, rgb(69, 74, 76), rgb(69,74,76) 10px, transparent 10px, transparent 20px, rgb(215,208,192) 20px, rgb(215,208,192) 30px,transparent 30px, transparent 40px);
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', sans-serif;
   color: #605756;
 }
 
@@ -211,7 +211,7 @@ html, body {
   outline: none;
   background: transparent  bottom left repeat-x;
   background-size: 8px 35px;
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', sans-serif;
 }
 .layout-2-column textarea {
   background-attachment: local;
@@ -225,7 +225,7 @@ html, body {
   border-width: 0;
   cursor: pointer;
   outline: none;
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display', sans-serif;
   font-size: 13px;
   letter-spacing: 1px;
   color: #605756;
