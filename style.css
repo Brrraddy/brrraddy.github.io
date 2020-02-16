@@ -1,4 +1,4 @@
-body {
+html, body {
   margin: 0;
   min-width: 960px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
@@ -72,7 +72,7 @@ body {
 
 .heading {
   margin: 0 0 16px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 88px;
   line-height: 96px;
   font-weight: 400;
@@ -90,7 +90,7 @@ body {
 
 .subheading {
   margin: 0 0 56px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 64px;
   line-height: 80px;
   font-weight: 400;
@@ -127,6 +127,9 @@ body {
   background-position: left;
 }
 
+.skill-personal{
+  background-image: url("icons/svg/ghost.svg");
+}
 .skill-html {
   background-image: url("img/icon-html.svg");
 }
@@ -141,14 +144,14 @@ body {
   height: 14px;
   font-size: 0;
   background-color: #ffffff;
-  border: 1px solid #86c3fa;
+  border: 1px solid rgb(69, 74, 76);
   border-radius: 8px;
 }
 
 .level div {
   margin: 1px;
   height: 12px;
-  background-color: #288be6;
+  background-color: rgb(215,208,192);
   border-radius: 6px;
 }
 
@@ -185,6 +188,51 @@ body {
   background-color: rgb(69, 74, 76);
   color: #ffffff;
 }
+
+.form-contact{
+  max-width: 350px;
+  margin: 50px auto 0;
+  padding: 20px;
+  background: rgb(248,247,242);
+  border: 10px solid transparent;
+  border-image: 10 repeating-linear-gradient(135deg, rgb(69, 74, 76), rgb(69,74,76) 10px, transparent 10px, transparent 20px, rgb(215,208,192) 20px, rgb(215,208,192) 30px,transparent 30px, transparent 40px);
+  font-family: 'Playfair Display';
+  color: #605756;
+}
+
+.layout-2-column {margin-bottom: 15px;}
+.layout-2-column input[type="text"],
+.layout-2-column input[type="email"],
+.layout-2-column textarea {
+  width: 100%;
+  padding: 0 10px;
+  line-height: 35px;
+  border-width: 0;
+  outline: none;
+  background: transparent  bottom left repeat-x;
+  background-size: 8px 35px;
+  font-family: 'Playfair Display';
+}
+.layout-2-column textarea {
+  background-attachment: local;
+  background-repeat: repeat;
+  resize: none;
+}
+.contact-me__button [type="submit"] {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background: rgb(215,208,192) ;
+  border-width: 0;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Playfair Display';
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #605756;
+  text-transform: uppercase;
+  transition: 1s cubic-bezier(.165, .84, .44, 1);
+}
+.contact-me__button [type="submit"]:hover {background: rgb(150,79,76);}
 
 .page-footer {
   padding: 40px 0;
